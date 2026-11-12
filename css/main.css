@@ -60,3 +60,45 @@ nav a {
     border-radius: 5px;
 }
 
+
+.featured {
+    padding: 40px 50px;
+    text-align: center;
+}
+
+.featured h2 {
+    color: #061B2B;
+    margin-bottom: 30px;
+}
+
+.books-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.book {
+    width: 200px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.book img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+.book h3 {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #061B2B;
+}
+
+.book p {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #555;
+}

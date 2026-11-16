@@ -211,3 +211,165 @@ nav a {
         gap: 15px;
     }
 }
+
+.join-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    padding: 60px 50px;
+}
+
+
+.join {
+    flex: 1;
+    max-width: 550px;
+    background-color: #E8F1F2;
+    padding: 60px 30px;
+    border-radius: 12px;
+    text-align: center;
+    margin: 0;
+}
+
+
+.join i {
+    font-size: 35px;
+    color: #197F90;
+    margin-bottom: 20px;
+}
+
+
+.join h2 {
+    color: #061B2B;
+    margin-bottom: 15px;
+}
+
+
+.join p {
+    color: #52636C;
+    margin-bottom: 30px;
+}
+
+
+.join-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.join-buttons a {
+    display: inline-block;
+    background-color: #197F90;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+.join-buttons a:last-child {
+    background-color: transparent;
+    color: #197F90;
+    border: 1px solid #197F90;
+}
+
+
+.reading-quote {
+    flex: 1;
+    text-align: center;
+    padding: 30px;
+}
+
+.reading-quote p {
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 30px;
+    line-height: 1.5;
+    color: #061B2B;
+    margin-bottom: 20px;
+}
+
+.reading-quote cite {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #197F90;
+    font-style: normal;
+}
+
+
+.footer {
+    background-color: #061B2B;
+    color: white;
+    padding: 50px 50px 20px;
+    margin-top: 60px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.footer-about {
+    max-width: 300px;
+}
+
+.footer-about h2 {
+    margin-bottom: 15px;
+    color: white;
+}
+
+.footer-about p {
+    color: #B8C8D0;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-links h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.footer-links ul {
+    list-style: none;
+}
+
+.footer-links li {
+    margin-bottom: 12px;
+}
+
+.footer-links a {
+    color: #B8C8D0;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    color: #B8E4E8;
+}
+
+.footer-bottom {
+    border-top: 1px solid #345064;
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+}
+
+.footer-bottom p {
+    color: #B8C8D0;
+    font-size: 13px;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 40px 20px 20px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+}

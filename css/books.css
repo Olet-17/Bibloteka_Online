@@ -1,0 +1,83 @@
+
+.books-hero {
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.books-hero h1 {
+    font-size: 36px;
+    color: #061B2B;
+    margin-bottom: 15px;
+}
+
+.books-hero p {
+    font-size: 17px;
+    color: #555;
+}
+
+
+.books-filter {
+    padding: 0 30px 50px;
+    text-align: center;
+}
+
+#searchBooks {
+    width: 100%;
+    max-width: 550px;
+    padding: 15px 20px;
+    border: 1px solid #D6E1E3;
+    border-radius: 8px;
+    background-color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    outline: none;
+}
+
+#searchBooks:focus {
+    border-color: #197F90;
+}
+
+.category-filters {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 30px;
+}
+
+.category-filters button {
+    background-color: white;
+    color: #061B2B;
+    border: 1px solid #D6E1E3;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.category-filters button:hover {
+    border-color: #197F90;
+    color: #197F90;
+}
+
+.category-filters button.active {
+    background-color: #197F90;
+    color: white;
+    border-color: #197F90;
+}
+
+@media (max-width: 768px) {
+    .books-filter {
+        padding: 0 20px 40px;
+    }
+
+    .category-filters {
+        gap: 10px;
+    }
+
+    .category-filters button {
+        padding: 9px 15px;
+        font-size: 13px;
+    }
+}

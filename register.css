@@ -1,0 +1,234 @@
+.register-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 30px;
+    min-height: 80vh;
+}
+
+.register-container {
+    display: flex;
+    width: 100%;
+    max-width: 1100px;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+}
+
+.register-info {
+    flex: 1;
+    background-color: #061B2B;
+    color: white;
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.register-info h2 {
+    color: #B8E4E8;
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+
+.register-info h1 {
+    font-size: 38px;
+    line-height: 1.3;
+    margin-bottom: 25px;
+}
+
+.register-info p {
+    color: #B8E4E8;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.register-info ul {
+    list-style: none;
+    margin-top: 35px;
+}
+
+.register-info li {
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    font-size: 15px;
+}
+
+.register-info blockquote {
+    margin-top: 45px;
+    font-size: 18px;
+    font-style: italic;
+    color: #B8E4E8;
+    line-height: 1.7;
+}
+
+.register-form {
+    flex: 1.3;
+    min-width: 0;
+    padding: 45px 40px;
+}
+
+.register-form h2 {
+    font-size: 30px;
+    color: #061B2B;
+    margin-bottom: 10px;
+}
+
+.register-form > p {
+    font-size: 15px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.name-row {
+    display: flex;
+    gap: 15px;
+}
+
+.name-row .form-group {
+    flex: 1;
+    min-width: 0;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    color: #061B2B;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #D6E1E3;
+    border-radius: 7px;
+    background-color: white;
+    font-family: inherit;
+    font-size: 14px;
+    outline: none;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    border-color: #197F90;
+}
+
+.reading-preference {
+    border: none;
+    margin-bottom: 25px;
+}
+
+.reading-preference legend {
+    color: #061B2B;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.radio-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.radio-options label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+    color: #555;
+}
+
+.radio-options input,
+.terms input {
+    accent-color: #197F90;
+    cursor: pointer;
+}
+
+.terms {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.register-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #197F90;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.register-button:hover {
+    background-color: #146674;
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 25px;
+    color: #555;
+    font-size: 14px;
+}
+
+.login-link a {
+    color: #197F90;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .register-section {
+        padding: 40px 20px;
+    }
+
+    .register-container {
+        flex-direction: column;
+        max-width: 550px;
+    }
+
+    .register-info {
+        padding: 35px 25px;
+    }
+
+    .register-info h1 {
+        font-size: 28px;
+    }
+
+    .register-info h2 {
+        margin-bottom: 20px;
+    }
+
+    .register-form {
+        padding: 35px 25px;
+    }
+
+    .name-row {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .radio-options {
+        gap: 12px;
+    }
+}

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Register | BookNest</title>
+
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/register.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">BookNest</div>
+
+            <ul>
+                <li><a href="main.html">Home</a></li>
+                <li><a href="books.html">Books</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="register-section">
+
+            <div class="register-container">
+
+                <div class="register-info">
+                    <h2>BookNest</h2>
+
+                    <h1>Your Story Starts Here.</h1>
+
+                    <p>
+                        Become part of our community and
+                        discover a world full of stories,
+                        knowledge, and inspiration.
+                    </p>
+
+                    <ul>
+                        <li>Explore different book categories</li>
+                        <li>Discover new authors</li>
+                        <li>Find your next favorite book</li>
+                        <li>Become part of a reading community</li>
+                    </ul>
+
+                    <blockquote>
+                        Every book opens a door to a new world.
+                    </blockquote>
+                </div>
+
+                <div class="register-form">
+
+                    <h2>Create an Account</h2>
+                    <p>Start your reading journey today.</p>
+
+                    <form method="post">
+
+                        <div class="name-row">
+
+                            <div class="form-group">
+                                <label for="firstName">First Name</label>
+                                <input type="text"
+                                       id="firstName"
+                                       name="firstName"
+                                       placeholder="First name"
+                                       required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="lastName">Last Name</label>
+                                <input type="text"
+                                       id="lastName"
+                                       name="lastName"
+                                       placeholder="Last name"
+                                       required>
+                            </div>
+
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email"
+                                   id="email"
+                                   name="email"
+                                   placeholder="Enter your email"
+                                   required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="birthDate">Date of Birth</label>
+                            <input type="date"
+                                   id="birthDate"
+                                   name="birthDate"
+                                   required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="genre">Favorite Genre</label>
+
+                            <select id="genre" name="genre" required>
+                                <option value="">Select a genre</option>
+                                <option value="fiction">Fiction</option>
+                                <option value="history">History</option>
+                                <option value="science">Science</option>
+                                <option value="romance">Romance</option>
+                                <option value="fantasy">Fantasy</option>
+                                <option value="mystery">Mystery</option>
+                                <option value="self-development">
+                                    Self-Development
+                                </option>
+                                <option value="children">Children</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password"
+                                   id="password"
+                                   name="password"
+                                   placeholder="Create a password"
+                                   minlength="8"
+                                   autocomplete="new-password"
+                                   required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="confirmPassword">
+                                Confirm Password
+                            </label>
+
+                            <input type="password"
+                                   id="confirmPassword"
+                                   name="confirmPassword"
+                                   placeholder="Confirm your password"
+                                   minlength="8"
+                                   autocomplete="new-password"
+                                   required>
+                        </div>
+
+                        <fieldset class="reading-preference">
+                            <legend>How often do you read?</legend>
+
+                            <div class="radio-options">
+                                <label>
+                                    <input type="radio"
+                                           name="reading"
+                                           value="daily">
+                                    Daily
+                                </label>
+
+                                <label>
+                                    <input type="radio"
+                                           name="reading"
+                                           value="weekly">
+                                    Weekly
+                                </label>
+
+                                <label>
+                                    <input type="radio"
+                                           name="reading"
+                                           value="occasionally">
+                                    Occasionally
+                                </label>
+                            </div>
+                        </fieldset>
+
+                        <div class="terms">
+                            <input type="checkbox"
+                                   id="terms"
+                                   name="terms"
+                                   required>
+
+                            <label for="terms">
+                                I agree to the Terms and Conditions.
+                            </label>
+                        </div>
+
+                        <button type="submit" class="register-button">
+                            Create Account
+                        </button>
+
+                        <p class="login-link">
+                            Already have an account?
+                            <a href="login.html">Login</a>
+                        </p>
+
+                    </form>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+
+            <div class="footer-about">
+                <h2>BookNest</h2>
+                <p>Your little corner of the literary world.</p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="main.html">Home</a></li>
+                    <li><a href="books.html">Books</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h3>Account</h3>
+                <ul>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="register.html">Register</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 BookNest. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
